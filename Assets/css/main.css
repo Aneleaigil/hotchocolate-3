@@ -35,8 +35,8 @@
 	background-color: #EC7000;
 	border-radius: 12PX;
 	border: none;
-	width: 20%;
-	margin-left: 25%;
+	width: 30%;
+	margin-left: 15%;
 	margin-top: 5%;
 	color: #ffff;
 }
@@ -49,6 +49,7 @@
 	border: none;
 	margin-top: 5%;
 	color: #ffff;
+	width: 30%;
 }
 
 /*---seccion responsiva--*/
@@ -88,4 +89,12 @@
 	border: none;
 	margin-top: 5%;
 	color: #ffff;
+}
+
+/*---@media---*/
+
+@media (width: 768px){
+	.two{
+		display: none;
+	}
 }
