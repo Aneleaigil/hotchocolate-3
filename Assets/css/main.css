@@ -98,3 +98,22 @@
 		display: none;
 	}
 }
+
+/*-------CSS GRUPO-----------*/
+.logo-3{
+	width: 5%;
+	margin: 1%;
+}
+
+.first li{
+	list-style: none;
+	text-decoration: none;
+	display:inline-block;
+}
+
+.linea{
+	border: 1px solid orange;
+	display: inline-block;
+	width: 90%
+
+}
