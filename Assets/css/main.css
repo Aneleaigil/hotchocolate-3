@@ -100,20 +100,169 @@
 }
 
 /*-------CSS GRUPO-----------*/
-.logo-3{
-	width: 5%;
-	margin: 1%;
-}
 
+
+.lgo{
+	padding-top: 1.5%;
+	width: 5%;
+	display: inline-block;
+	margin-right: 3%
+}
 .first li{
 	list-style: none;
 	text-decoration: none;
 	display:inline-block;
+	margin-right: 3%;
+	}
+.usuario{
+padding-top: 1%;
+}
+.first{
+	
 }
 
 .linea{
 	border: 1px solid orange;
 	display: inline-block;
-	width: 90%
+	width: 90%;
+	margin-left:8%;
+	margin-bottom: 2%;
 
+}
+
+.date{
+	color:#9B9B9B; 
+}
+
+.fechas{
+	margin-bottom: 1%;
+
+}
+.datos{
+	margin-left: 8%;
+}
+.datos li{
+   list-style: none;
+	text-decoration: none;
+	display:inline-block;
+	margin-right: 2%;
+}
+li.active{
+	border-bottom: 4px solid green;
+}
+.exit{
+	padding: 2%;
+}
+ .menu{
+	background-color:#003767!important;
+	padding: 1%;
+	color: #ffff;
+	display: inline-block;
+	width: 100%;
+}
+
+.menu ul{
+	margin-left: 6.5%;
+	margin-bottom: 0px !important;
+}
+
+
+.nav-menu li{
+
+display: inline-block;
+list-style: none;
+text-decoration: none;
+margin-left: 0.5%;
+margin-right: 6%;
+
+}
+
+.botones{
+	margin-left: 30%;
+}
+
+.botones2{
+margin-left: 25%;
+}
+
+.btns{
+	padding-top: 1%;
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+}
+.chat{
+float: left;
+
+}
+.txt{
+	padding: 0em 3em 0em 3em;
+    background-color:  #007AB7;
+    color: #ffff;
+
+}
+.gestor{
+	float: right;
+	margin-left: 80%;
+	margin-top: 1%;	
+	margin-bottom: 1%;
+}
+
+.txt2{
+	background-color: transparent;
+	border-color:  #EC7000;
+	color:  #EC7000;
+	/*padding-right: 2em;
+	padding-left: 2em;*/
+	padding: 0.5em 2em 0.5em 2em;
+}
+.todos{
+	display: inline-block;
+    color: #505050;
+
+}
+.todos a{
+text-decoration: none;
+}
+.panel-heading{
+background: linear-gradient(180deg, #EEEEEE 0%, #D8D8D8 100%);
+border-radius: 8px 8px 0px 0px;
+color:#505050;
+font-weight: bold;
+font-size: 24px;
+}
+
+.panel-body{
+	background-color: #F1F1F1;
+}
+
+.panel-heading-2{
+background: linear-gradient(180deg, #EEEEEE 0%, #D8D8D8 100%);
+border-radius: 8px 8px 0px 0px;
+color:#505050;
+font-weight: bold;
+font-size: 14px;
+
+}
+
+
+.pane-body{
+	background-color: #F1F1F1;
+
+}
+.table{
+	margin-top: 5%;
+		
+}
+.tabla{
+	background-color: #ffff;
+	width: 40%;
+	vertical-align: middle;
+}
+.inpt{
+	width: 10%;
+	border:none;
+}
+.tabla{
+	vertical-align: middle;
 }

@@ -1,5 +1,19 @@
 .linea{
 	border: 1px solid orange;
 	width: 30%;
-	
+
+}
+
+.sorting-block .sorting-nav li.active{
+
+	border-bottom: 4px solid green;
+
+}
+
+li.active{
+	border-bottom: 4px solid green;
+}
+
+.first li{
+	display: inline-block;
 }
