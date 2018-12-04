@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="Assets/css/fonts-itau.css">
-  <link rel="stylesheet" href="Assets/css/main.css">
+  <link rel="stylesheet" href="Assets/css/main2.css">
   
 </head>
 <body>
@@ -56,24 +56,22 @@
     <ul class="nav-menu">
       <li class="filter active" data-filter="creacion-grupo"><i class="icon-itaufonts_lideranca margen1-left"></i>Creación de Grupo</li>
       <li class="filter"  data-filter="rating"><i class="icon-itaufonts_mercado_noticias  margen1-left"></i>Rating Pyme</li>
-      <li class="filter"  data-filter="risco"><i class="icon-itaufonts_hist_de_rentabilidade"></i>Risco Pyme</li>
+      <li class="filter"  data-filter="risco"><i class="icon-itaufonts_hist_de_rentabilidade"></i>Risco Pyme</li> 
       <li class="filter" data-filter="docs"><i class="icon-itaufonts_relatorios_financeiros"></i>Documentos Predefinidos</li>
     </ul>
   </div>
 
-
-
           <div class="submenu-1">
             <ul class="nav nav-pills navbar-default">
-                <li class="botones"><a  href="#">Datos Solicitantes<span class="sr-only">(current)</span></a></li>
+                <li class="bot"><a  href="#">Datos Solicitantes<span class="sr-only">(current)</span></a></li>
                 <li class="botones"><a  href="#">Malla Societaria<span class="sr-only">(current)</span></a></li> 
               </ul>
           </div>
           <div class="submenu-2">
             <ul class="nav nav-pills navbar-default">
-                <li class="botones2"><a  href="#">Garantías<span class="sr-only">(current)</span></a></li>
-                <li class="botones2"><a  href="#">Detalle de Solicitud<span class="sr-only">(current)</span></a></li> 
-                <li class="botones2"><a  href="#">Detalle de Grupo<span class="sr-only">(current)</span></a></li>
+                <li class="bot2"><a  href="#">Garantías<span class="sr-only">(current)</span></a></li>
+                <li class="bot2"><a  href="#">Detalle de Solicitud<span class="sr-only">(current)</span></a></li> 
+                <li class="bot2"><a  href="#">Detalle de Grupo<span class="sr-only">(current)</span></a></li>
               </ul>
           </div>
  </div>
@@ -83,40 +81,52 @@
 <div class="row">
   <ul class="col-md-12 col-lg-12 col-xl-12 btns">
 
-
-    <li class="chat"><button class="btn-group-xl txt ">Chat</button></li>
-    <li class="gestor"><button class="btn-group-xl txt2"><i class="icon-itaufonts_docs  margen1-left"></i>Gestor Documental</button>
+    <li class="chat col-lg-10"><button class="btn-group-md txt  "><i class="icon-itaufonts_seta_down"> </i>Chat</button></li>
+    <li class="gestor col-lg-2"><button class="btn-group-xl txt2"><i class="icon-itaufonts_docs  margen1-left"></i>Gestor Documental</button>
 
   </ul>
 </div>
  
-<!--div class="btns row">
-  <div class="col-lg-12 col-xl-12 col-md-12">
 
-  <div class="chat"><button class="btn-group-xl txt ">Chat</button></div>
-
-  <div class="gestor "><button class="btn-group-xl txt2"><i class="icon-itaufonts_docs  margen1-left"></i>Gestor Documental</button></div>
-
-  </div>
-</div>
 
 <!--tabla-datos solicitante-->
 
 
 <section class="cuadro row">
-  <div class="tabla-big col-xl-12 col-md-12 col-lg-12">
-  <div class="panel panel-default">
+  <div class="tabla col-md-3 col-md-offset-3 ">
+  <div class="panel panel-default col-lg-10">
   <!-- Default panel contents -->
-  <div class="panel-heading text-center">Datos Solicitantes</div>
-  <div class="panel-body">
+  <!--div class="btn-group cbz">
+    <button class="btn btn-default col-lg-12" type="button">Datos Solicitantes</button>
+    <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button"><i class="icon-itaufonts_seta_down"> </i>
+    </button-->
 
-  <div class="col-lg-6">
-      
+
+  <div class="panel-heading text-center">Datos Solicitantes</div>
+
+  <div class="panel-body">
+                            
+<!--boton tipo cliente-->
+
+ <div class="btn-group">
+    <button class="btn btn-default" type="button">Tipo Cliente</button>
+    <button data-toggle="dropdown" class="btn btn-default dropdown-toggle" type="button"><i class="icon-itaufonts_seta_down"> </i>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Action</a></li>
+      <li><a href="#">Another action</a></li>
+      <li><a href="#">Something else here</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Separated link</a></li>
+    </ul>
+  </div>
 
 
   <!-- Table -->
-   <div class="tab" data-example-id="simple-responsive-table"> <div class=" tabla table-responsive"> <table class="table"> 
-    <thead class="panel-heading"> <tr> <th>#</th> <th>Table heading</th></tr> </thead> 
+   <div class="tab" data-example-id="simple-responsive-table"> 
+    <div class=" tabla table-responsive">
+     <table class="table"> 
+    <thead class="panel-heading-2"> <tr> <th>#</th> <th>Datos del Solicitante</th></tr> </thead> 
     <tbody> 
     <tr> <th scope="row">1</th> <td>Table cell</td></tr>
     <tr> <th scope="row">2</th> <td>Table cell</td></tr>
@@ -125,24 +135,51 @@
 </table> 
 </div>
  </div> 
-      
+</div>
+ <button class="btn-group-xl"><i class="icon-itaufonts_mais"></i>Agregar Dirección</button>
+</div>
+</div>
 
 
-      <button class="btn-group-xl"><i class="icon-itaufonts_mais"></i>Agregar Dirección</button>
 
-
-
-  
 </section>
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Panel 1</h3>
+          <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+        </div>
+        <div class="panel-body">Panel content</div>
+      </div>
+    </div>
+
+    <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Link with href
+  </a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Button with data-target
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+
 
 
 <!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://getbootstrap.com/docs/3.3/assets/js/ie-emulation-modes-warning.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://getbootstrap.com/docs/3.3/assets/js/ie10-viewport-bug-workaround.js"></script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
 
 
 </body>
